@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import { onAuthStateChanged } from "./firebase";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
-import StudentDashboard  from "./pages/StudentDashboard";
-import MentorDashboard  from "./pages/MentorDashboard";
-import Security from "./pages/Security";
+import StudentDashboard  from "./pages/student/StudentDashboard";
+import MentorDashboard  from "./pages/mentor/MentorDashboard";
+import Security from "./pages/security/Security";
 import { auth } from "./firebase";
 import ErrorPage from "./pages/ErrorPage";
 
